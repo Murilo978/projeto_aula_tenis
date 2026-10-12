@@ -1,0 +1,250 @@
+<!DOCTYPE html> <!-- Eu declaro que este documento segue o padrão moderno do HTML5. -->
+<html lang="pt-BR"> <!-- Eu defino a língua principal da página como Português do Brasil. -->
+
+<head> <!-- Eu abro a seção de metadados e configurações que não aparecem diretamente na tela. -->
+
+    <meta charset="UTF-8"> <!-- Eu defino a codificação para UTF-8 garantindo a exibição correta de acentos e caracteres especiais. -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Eu torno a página responsiva para se ajustar a dispositivos móveis e desktops. -->
+
+    <title>Contato — ACE</title> <!-- Eu configuro o título que será exibido na aba do navegador. -->
+
+    <link rel="stylesheet" href="../css/style.css"> <!-- Eu importo a folha de estilos geral do projeto subindo um nível de pasta. -->
+    <link rel="stylesheet" href="../css/contato.css"> <!-- Eu importo os estilos específicos da página de contato. -->
+
+    <script src="../javascript/contato.js" defer></script> <!-- Eu carrego o script JavaScript de contato de forma assíncrona, executando após o parse do HTML. -->
+
+</head> <!-- Eu fecho a seção de configurações do documento. -->
+
+<body> <!-- Eu inicio o corpo visível da página Web. -->
+
+<header class="header"> <!-- Eu crio o cabeçalho superior que contém a marca e a navegação. -->
+
+    <a href="../index.html" class="logo"> <!-- Eu adiciono o link da logomarca redirecionando para a página inicial. -->
+        <span class="logo-mark">A</span> <!-- Eu destaco a letra inicial "A" dentro do ícone da logo. -->
+        <span>ACE<span class="logo-dot">.</span></span> <!-- Eu exibo o texto do nome da marca com o ponto estilizado no final. -->
+    </a> <!-- Eu fecho o link do logotipo. -->
+
+    <nav class="navigation"> <!-- Eu defino o menu de navegação principal entre as páginas. -->
+        <a href="../index.html">Início</a> <!-- Eu crio o link para voltar à página principal. -->
+        <a href="aulas.html">Aulas</a> <!-- Eu crio o link para a página da lista de aulas. -->
+        <a href="recursos.html">Recursos</a> <!-- Eu crio o link para a página de recursos adicionais. -->
+        <a href="contato.html" class="active">Contato</a> <!-- Eu sinalizo a página atual como ativa usando a classe 'active'. -->
+    </nav> <!-- Eu fecho o bloco de links do menu. -->
+
+    <a href="aulas.html" class="header-button"> <!-- Eu insiro o botão de chamada rápida no cabeçalho. -->
+        Começar agora <!-- Eu defino o texto principal da ação do botão. -->
+        <span>→</span> <!-- Eu adiciono um elemento visual de seta para indicar direcionamento. -->
+    </a> <!-- Eu encerro o link do botão de chamada. -->
+
+</header> <!-- Eu encerro o cabeçalho da página. -->
+
+
+<main> <!-- Eu abro o bloco principal contendo as seções de conteúdo do site. -->
+
+    <!-- HERO --> <!-- Eu adiciono um comentário demarcando a seção principal de apresentação. -->
+
+    <section class="contact-hero"> <!-- Eu crio o container do banner principal da página de contato. -->
+
+        <div class="contact-hero-content"> <!-- Eu agrupo os textos informativos do cabeçalho da seção. -->
+
+            <span class="eyebrow"> <!-- Eu insiro uma pequena etiqueta de texto acima do título principal. -->
+                FALE COM O ACE <!-- Eu declaro o texto curto introdutório. -->
+            </span> <!-- Eu encerro a etiqueta textual. -->
+
+            <h1> <!-- Eu defino o título principal da tela de contato. -->
+                Tem uma <!-- Eu insiro a primeira parte da frase do título. -->
+                <span>dúvida?</span> <!-- Eu coloco a palavra "dúvida" dentro de um span para aplicar destaque visual. -->
+            </h1> <!-- Eu fecho a tag do título principal. -->
+
+            <p> <!-- Eu adiciono um parágrafo de apoio contextualizando o objetivo da página. -->
+                Não encontrou o que procurava? Envie sua dúvida <!-- Eu explico ao usuário como ele pode interagir com o projeto. -->
+                ou sugira uma nova aula para o nosso conteúdo. <!-- Eu complemento a instrução do formulário. -->
+            </p> <!-- Eu encerro o parágrafo explicativo. -->
+
+        </div> <!-- Eu fecho a div de conteúdo textual da Hero. -->
+
+        <div class="contact-hero-number"> <!-- Eu insiro um elemento gráfico para exibir um número identificador da seção. -->
+            03 <!-- Eu declaro o número da seção no layout. -->
+        </div> <!-- Eu encerro a div do indicador numérico. -->
+
+    </section> <!-- Eu fecho a seção Hero de apresentação. -->
+
+
+    <!-- CONTATO --> <!-- Eu adiciono um comentário para marcar o início da área interativa de contato. -->
+
+    <section class="contact-section"> <!-- Eu abro a seção que contém o formulário e as informações. -->
+
+        <div class="section-label dark-label"> <!-- Eu crio um rótulo estilizado de identificação para a seção. -->
+            <span>01</span> <!-- Eu exibo a numeração interna da seção. -->
+            ENTRE EM CONTATO <!-- Eu defino a legenda descritiva da seção. -->
+        </div> <!-- Eu encerro o rótulo da seção. -->
+
+
+        <div class="contact-layout"> <!-- Eu uso uma div com layout em colunas para separar texto e formulário. -->
+
+            <!-- TEXTO --> <!-- Eu identifico o lado reservado aos textos explicativos. -->
+
+            <div class="contact-info"> <!-- Eu agrupo todas as informações institucionais e tópicos de ajuda. -->
+
+                <span class="contact-tag"> <!-- Eu insiro uma tag estilizada acima do subtítulo. -->
+                    SUA OPINIÃO IMPORTA <!-- Eu reforço o valor do feedback do usuário. -->
+                </span> <!-- Eu encerro a tag estilizada. -->
+
+                <h2> <!-- Eu defino o título secundário reforçando a colaboração. -->
+                    Ajude a construir <!-- Eu insiro o início da chamada principal da coluna. -->
+                    o próximo <em>conteúdo.</em> <!-- Eu destaco a palavra "conteúdo" em itálico com a tag 'em'. -->
+                </h2> <!-- Eu fecho o título secundário. -->
+
+                <p> <!-- Eu inicio um parágrafo com perguntas retóricas para orientar o usuário. -->
+                    Está com dificuldade em algum fundamento? <!-- Eu crio um ponto de identificação com dúvidas sobre fundamentos. -->
+                    Quer aprender uma técnica específica? <!-- Eu crio um ponto de identificação sobre técnicas. -->
+                    Ou simplesmente tem uma dúvida sobre tênis? <!-- Eu pergunto sobre dúvidas gerais do esporte. -->
+                </p> <!-- Eu fecho o primeiro parágrafo informativo. -->
+
+                <p> <!-- Eu insiro o segundo parágrafo sobre a oportunidade de sugestão. -->
+                    Envie sua mensagem. Sua sugestão pode <!-- Eu encorajo o envio da mensagem. -->
+                    virar uma nova aula no ACE. <!-- Eu explico o benefício direto de enviar a mensagem. -->
+                </p> <!-- Eu encerro o segundo parágrafo. -->
+
+                <div class="contact-line"></div> <!-- Eu crio uma linha divisória decorativa no layout. -->
+
+                <div class="contact-topics"> <!-- Eu crio um container para listar os tipos de mensagens aceitas. -->
+
+                    <div> <!-- Eu abro o bloco do primeiro tópico de suporte. -->
+                        <span>01</span> <!-- Eu insiro o número do primeiro tópico. -->
+                        <strong>Dúvida</strong> <!-- Eu coloco o título do tópico em negrito. -->
+                        <p> <!-- Eu abro a descrição curta do primeiro tópico. -->
+                            Pergunte sobre qualquer fundamento <!-- Eu indico que dúvidas gerais são aceitas. -->
+                            ou técnica do tênis. <!-- Eu especifico o escopo do suporte. -->
+                        </p> <!-- Eu fecho a descrição do primeiro tópico. -->
+                    </div> <!-- Eu fecho o bloco do primeiro tópico. -->
+
+                    <div> <!-- Eu abro o bloco do segundo tópico de suporte. -->
+                        <span>02</span> <!-- Eu insiro o número do segundo tópico. -->
+                        <strong>Sugestão de aula</strong> <!-- Eu defino o título do tópico em negrito. -->
+                        <p> <!-- Eu abro a descrição do segundo tópico. -->
+                            Sugira um conteúdo que você gostaria <!-- Eu incentivo o envio de novos temas. -->
+                            de encontrar no ACE. <!-- Eu fecho a sugestão do escopo. -->
+                        </p> <!-- Eu fecho a descrição do segundo tópico. -->
+                    </div> <!-- Eu fecho o bloco do segundo tópico. -->
+
+                </div> <!-- Eu encerro a lista de tópicos de contato. -->
+
+            </div> <!-- Eu encerro a div das informações institucionais. -->
+
+
+            <!-- FORMULÁRIO --> <!-- Eu sinalizo o início do container do formulário. -->
+
+            <div class="contact-form-container"> <!-- Eu crio a caixa que envolve o formulário de envio. -->
+
+                <!-- Formulário unificado: action do PHP, método POST e ID usado pelo JS. -->
+                <form id="contact-form" action="../php/processa_contato.php" method="POST">
+
+                    <div class="form-header"> <!-- Eu crio o cabeçalho interno do formulário. -->
+
+                        <span>ENVIE UMA MENSAGEM</span> <!-- Eu exibo o título do formulário. -->
+
+                        <p> <!-- Eu declaro o texto de instrução inicial para preenchimento. -->
+                            Preencha os campos abaixo. <!-- Eu oriento o usuário a preencher o formulário. -->
+                        </p> <!-- Eu encerro a instrução inicial. -->
+
+                    </div> <!-- Eu fecho o cabeçalho do formulário. -->
+
+
+                    <div class="form-group"> <!-- Eu crio o grupo para o campo do Nome. -->
+
+                        <label for="name"> <!-- Eu crio a etiqueta de texto para o campo do nome. -->
+                            Nome <!-- Eu declaro o texto do rótulo do nome. -->
+                        </label> <!-- Eu fecho a etiqueta do nome. -->
+
+                        <input
+                            type="text"
+                            id="name"
+                            name="name"
+                            placeholder="Seu nome"
+                            required
+                        > <!-- Eu encerro a tag do input de nome. -->
+
+                    </div> <!-- Eu fecho o grupo do campo do Nome. -->
+
+
+                    <div class="form-group"> <!-- Eu crio o grupo para o campo do E-mail. -->
+
+                        <label for="email"> <!-- Eu coloco o rótulo do campo do e-mail. -->
+                            E-mail <!-- Eu defino o texto do rótulo do e-mail. -->
+                        </label> <!-- Eu encerro a etiqueta do e-mail. -->
+
+                        <input
+                            type="email"
+                            id="email"
+                            name="email"
+                            placeholder="seu@email.com"
+                            required
+                        > <!-- Eu fecho a tag do input de e-mail. -->
+
+                    </div> <!-- Eu fecho o grupo do campo de E-mail. -->
+
+
+                    <div class="form-group"> <!-- Eu crio o grupo para a escolha do Assunto. -->
+
+                        <label for="subject"> <!-- Eu coloco a etiqueta de texto para a seleção de assunto. -->
+                            Assunto <!-- Eu declaro a palavra 'Assunto' no rótulo. -->
+                        </label> <!-- Eu fecho o rótulo do assunto. -->
+
+                        <select id="subject" name="subject" required> <!-- Eu inicio a caixa de seleção com as opções de assunto. -->
+
+                            <option value="" disabled selected> <!-- Eu defino a opção inicial vazia, desabilitada e selecionada. -->
+                                Selecione uma opção <!-- Eu dou a instrução padrão de seleção. -->
+                            </option> <!-- Eu fecho a opção neutra. -->
+
+                            <option value="duvida"> <!-- Eu crio a opção com o valor 'duvida' para o backend. -->
+                                Tenho uma dúvida <!-- Eu insiro o texto visível da dúvida. -->
+                            </option> <!-- Eu encerro a opção da dúvida. -->
+
+                            <option value="sugestao"> <!-- Eu crio a opção com o valor 'sugestao' para o backend. -->
+                                Sugerir uma aula <!-- Eu insiro o texto visível da sugestão. -->
+                            </option> <!-- Eu fecho a opção de sugestão. -->
+
+                        </select> <!-- Eu encerro a caixa de seleção do assunto. -->
+
+                    </div> <!-- Eu fecho o grupo do campo de Assunto. -->
+
+
+                    <div class="form-group"> <!-- Eu crio o grupo do campo de mensagem em texto livre. -->
+
+                        <label for="message"> <!-- Eu insiro a etiqueta para o campo da mensagem. -->
+                            Mensagem <!-- Eu coloco o texto descritivo do rótulo. -->
+                        </label> <!-- Eu encerro a etiqueta do campo de mensagem. -->
+
+                        <textarea
+                            id="message"
+                            name="message"
+                            rows="6"
+                            placeholder="Conte sua dúvida ou sugestão..."
+                            required
+                        ></textarea> <!-- Atributos ficam na tag de abertura; o conteúdo fica vazio. -->
+
+                    </div> <!-- Eu fecho o grupo da Mensagem. -->
+
+
+                    <button type="submit" class="contact-submit"> <!-- Eu crio o botão que submete os dados do formulário. -->
+                        Enviar mensagem <!-- Eu declaro o texto principal do botão de envio. -->
+                        <span>→</span> <!-- Eu incluo a seta gráfica dentro do botão. -->
+                    </button> <!-- Eu encerro o elemento de botão. -->
+
+
+                    <p id="form-message"></p> <!-- Eu reservo este parágrafo para exibir mensagens de retorno via JS. -->
+
+                </form> <!-- Eu fecho a tag do formulário de contato. -->
+
+            </div> <!-- Eu encerro a div receptora do formulário. -->
+
+        </div> <!-- Eu fecho a div que estrutura o layout em duas colunas. -->
+
+    </section> <!-- Eu fecho a seção do formulário de contato. -->
+
+</main> <!-- Eu encerro o bloco principal de conteúdo. -->
+
+</body> <!-- Eu encerro o corpo da página. -->
+
+</html> <!-- Eu fecho o código HTML por completo. -->

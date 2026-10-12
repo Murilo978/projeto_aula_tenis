@@ -1,0 +1,239 @@
+/* =========================
+   HERO
+========================= */
+
+.resources-hero {
+    min-height: 55vh;
+
+    padding: 100px 7vw;
+
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+
+    background: #151716;
+
+    border-bottom: 1px solid #383b38;
+}
+
+.resources-hero h1 {
+    margin-top: 20px;
+
+    font-size: clamp(70px, 10vw, 145px);
+    line-height: 0.82;
+}
+
+.resources-hero p {
+    max-width: 500px;
+
+    margin-top: 30px;
+
+    color: #969a95;
+    line-height: 1.7;
+}
+
+.resources-number {
+    color: #c9f53b;
+
+    font-size: 12px;
+    letter-spacing: 0.15em;
+}
+
+
+/* =========================
+   RECURSOS
+========================= */
+
+.resources {
+    padding: 120px 7vw;
+
+    background: #e9eae5;
+    color: #171918;
+}
+
+.resources-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 14px;
+
+    margin-top: 65px;
+}
+
+.resource-card {
+    min-height: 480px;
+
+    padding: 28px;
+
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+
+    border: 1px solid #c1c4be;
+    background: #f0f1ec;
+
+    overflow: hidden;
+}
+
+.resource-icon {
+    width: 42px;
+    height: 42px;
+
+    display: grid;
+    place-items: center;
+
+    border: 1px solid #a9ada6;
+
+    font-size: 20px;
+}
+
+.resource-number {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+
+    color: #777b75;
+
+    font-size: 10px;
+    letter-spacing: 0.1em;
+}
+
+.resource-card h2 {
+    margin-top: auto;
+
+    font-size: clamp(40px, 4vw, 60px);
+    line-height: 0.9;
+}
+
+.resource-card p {
+    margin-top: 20px;
+
+    color: #70746e;
+
+    line-height: 1.7;
+}
+
+.resource-card a {
+    width: max-content;
+
+    margin-top: 30px;
+    padding-bottom: 7px;
+
+    border-bottom: 1px solid #171918;
+
+    font-size: 11px;
+}
+
+.resource-card a:hover {
+    color: #647b08;
+    border-color: #647b08;
+}
+
+
+/* =========================
+   CARD COM IMAGEM
+========================= */
+
+.image-resource {
+    padding: 0;
+    color: #fff;
+}
+
+.image-resource img {
+    position: absolute;
+    inset: 0;
+
+    height: 100%;
+    object-fit: cover;
+
+    filter: brightness(0.55) saturate(0.75);
+}
+
+.resource-image-overlay {
+    position: absolute;
+    inset: 0;
+
+    background:
+        linear-gradient(
+            to top,
+            rgba(8, 10, 9, 0.9),
+            rgba(8, 10, 9, 0.1)
+        );
+}
+
+.image-resource-content {
+    position: absolute;
+    z-index: 2;
+
+    inset: 28px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.image-resource-content .resource-number {
+    color: #d0d2cd;
+}
+
+.image-resource-content h2 {
+    margin-top: auto;
+}
+
+.image-resource-content a {
+    border-color: #c9f53b;
+}
+
+
+/* =========================
+   FUTURO
+========================= */
+
+.future-section {
+    min-height: 65vh;
+
+    padding: 130px 7vw;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    border-top: 1px solid #363936;
+}
+
+.future-section h2 {
+    max-width: 950px;
+
+    margin-top: 25px;
+
+    font-size: clamp(55px, 8vw, 110px);
+    line-height: 0.9;
+}
+
+.future-section p {
+    max-width: 520px;
+
+    margin-top: 30px;
+
+    color: #929691;
+    line-height: 1.8;
+}
+
+
+/* =========================
+   RESPONSIVO
+========================= */
+
+@media (max-width: 850px) {
+
+    .resources-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .resource-card {
+        min-height: 400px;
+    }
+
+    .resources-hero h1 {
+        font-size: 70px;
+    }
+}
